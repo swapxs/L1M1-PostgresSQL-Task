@@ -1,0 +1,7 @@
+\copy dept (dname, numphds) FROM 'data/dept.data';
+\copy prof (pname, dname) FROM 'data/prof.data';
+\copy course (cno, cname, dname) FROM 'data/course.data';
+\copy student (sid, sname, sex, age, year, gpa) FROM 'data/student.data';
+\copy major (dname, sid) FROM 'data/major.data';
+\copy section (dname, cno, sectno, pname) FROM 'data/section.data';
+\copy enroll (sid, grade, dname, cno, sectno) FROM 'data/enroll.data';
